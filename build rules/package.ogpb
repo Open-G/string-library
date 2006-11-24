@@ -1,0 +1,88 @@
+[Package Name]
+
+Name=oglib_string
+
+Version=2.4
+
+Release=1
+
+
+[Description]
+
+Description="The string package contains several routines for operating on strings."
+
+Summary="OpenG String Tools"
+
+License=BSD
+
+Copyright="2002 2003 2004 Jean-Pierre Drolet, Paul Sullivan, Jim Kring"
+
+Distribution="OpenG Toolkit"
+
+Icon=../source/string.bmp
+
+Vendor=OpenG.org
+
+URL=http://openg.org/string
+
+Packager="Jim Kring <jim@jimkring.com>"
+
+
+[Dependencies]
+
+Requires="ogrsc_dynamicpalette >= 2.0, oglib_error >= 2.0, oglib_array >= 2.0, oglib_lvdata >= 2.0"
+
+AutoReqProv=FALSE
+
+
+[Platform]
+
+Exclusive_LabVIEW_Version=>=6.1
+
+Exclusive_LabVIEW_System=All
+
+Exclusive_OS=All
+
+
+[Files]
+
+Num File Groups=3
+
+
+[File Group 0]
+
+Source Dir=../built/string
+
+Target Dir=<OpenG.lib>/string
+
+Replace Mode=Always
+
+Num Files=1
+
+File 0="string.llb/*"
+
+
+[File Group 1]
+
+Source Dir="../source"
+
+Target Dir="<user.lib>/_dynamicpalette_dirs/string"
+
+Replace Mode=Always
+
+Num Files=1
+
+File 0=oglib_string.mnu
+
+
+[File Group 2]
+
+Source Dir="../source"
+
+Target Dir="<user.lib>/_dynamicpalette_dirs/OpenG"
+
+Replace Mode=Always
+
+Num Files=1
+
+File 0=oglib_string.mnu

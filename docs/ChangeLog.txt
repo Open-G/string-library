@@ -1,0 +1,31 @@
+-= oglib_string-2.4-1.ogp =-
+
+
+Changes from 2.3-1 --> 2.4-1
+--------------------------------
+2004-11-19 
+[FIX] 'Format Variant Into String.vi' and 'Scan Variant from String.vi'
+      Now supports Refnum type.
+
+
+Changes from 2.2-1 --> 2.3-1
+--------------------------------
+2004-11-15 
+[FIX] Package now overwrites existing files in target location
+
+
+Changes from 2.1-1 --> 2.2-1
+--------------------------------
+2004-03-18
+
+[MOD] "Slice String" - added an input to optionally include last index.
+[FIX] "Slice String" - fixed an error in the VI info documentation.
+
+
+Changes from 2.0-1 --> 2.1-1
+--------------------------------
+2004-02-24
+
+[FIX] Format string was not wired in Boolean case of 'Format Variant
+      Into String'
+
