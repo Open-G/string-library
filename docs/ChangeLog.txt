@@ -1,4 +1,23 @@
--= oglib_string-2.4-1.ogp =-
+-= oglib_string-2.5-1.ogp =-
+
+
+Changes from 2.4-1 --> 2.5-1
+--------------------------------
+2006-11-24
+[MOD] Changed from LGPL to BSD license.
+[NEW] 'Trim Whitespace.vi' is now polymorphic, accepting strings or
+      arrays of strings.
+[NEW] 'Is a GUID.vi' is a VI that tests whether a string is a GUID
+[NEW] 'Is an MD5.vi' is a VI that tests whether a string is an MD5
+[NEW] 'Place Number to Proper Engl Text.vi' is a VI that converts a
+      number to text using 'place number' format, for example:
+      10 --> 'tenth', 21 --> 'twenty first', 
+[NEW] 'To Camel Case.vi' converts a string into camel case format.
+      For example: 'hello world' --> 'HelloWorld'
+[NEW] 'To Proper Case.vi' converts a string to proper case format.
+      For example: 'hello world' --> 'Hello world'
+[FIX] Changed several inputs of VIs to 'required input', since in
+      accordance with the proper usage of the applicable VI.
 
 
 Changes from 2.3-1 --> 2.4-1
