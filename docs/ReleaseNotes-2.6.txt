@@ -1,0 +1,1 @@
+This release restores the behavior of "Multi-Line String to Array.vi" (which was removed in version 2.5) where the last array element is removed, if it is an empty string. (see change log for details).  This behavior is useful for instrument communication where the last line ends with a EOL character that we do not wish to treat as a seperate line (since it contains no data).

@@ -1,0 +1,2 @@
+2007-01-24
+[MOD] "Multi-Line String to Array.vi" now removes last array element, if it is an empty string. This was the behavior in version 2.4, which was lost in version 2.5.
