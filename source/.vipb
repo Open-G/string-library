@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.3" Created_Date="2010-12-07 17:22:49" Modified_Date="2010-12-07 17:24:14" Creator="Jonathon Green" Comments="" ID="b9270009538d90d9ec70461642074eb6">
+<VI_Package_Builder_Settings Version="0.3" Created_Date="2010-12-07 17:22:49" Modified_Date="2010-12-09 20:02:28" Creator="Jonathon Green" Comments="" ID="fb75261467c6fd85b20c3bb7a7ffff74">
   <Library_General_Settings>
     <Package_File_Name>oglib_string</Package_File_Name>
-    <Library_Version>4.0.0.2</Library_Version>
+    <Library_Version>4.0.0.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -22,7 +22,7 @@
       <Direct_Dependencies>oglib_lvdata-2.9-1</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
-      <Pre-Build_VI>..\..\build support\Pre-Build VI - Run Unit Tests.vi</Pre-Build_VI>
+      <Pre-Build_VI>..\build support\Pre-Build VI - Run Unit Tests.vi</Pre-Build_VI>
       <Post-Build_VI/>
       <Pre-Install_VI/>
       <Post-Install_VI/>
@@ -48,7 +48,7 @@ Package build with VIPM 2010</Release_Notes>
       <Examples>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path/>
+        <Path>&lt;application&gt;\examples\OpenG\string</Path>
       </Examples>
       <Custom_Probes>
         <LLB>false</LLB>
@@ -91,6 +91,24 @@ Package build with VIPM 2010</Release_Notes>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>library</Path>
+        <Destination>Toolkit VIs</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>examples</Path>
+        <Destination>Examples</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>library</Path>
+        <Destination>Toolkit VIs</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
       <Password_Overrides>
         <Path>.</Path>
         <Password/>
@@ -98,10 +116,26 @@ Package build with VIPM 2010</Release_Notes>
       <Namespace_Overrides>
         <Path>.</Path>
         <Namespace_Type>Suffix</Namespace_Type>
+        <Namespace/>
+      </Namespace_Overrides>
+      <Namespace_Overrides>
+        <Path>examples</Path>
+        <Namespace_Type>Suffix</Namespace_Type>
         <Namespace>__ogtk</Namespace>
       </Namespace_Overrides>
+      <Namespace_Overrides>
+        <Path>library</Path>
+        <Namespace_Type>Suffix</Namespace_Type>
+        <Namespace>__ogtk</Namespace>
+      </Namespace_Overrides>
+      <Exclusions>
+        <Path>images</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>user docs</Path>
+      </Exclusions>
     </Source_Files>
-    <License_Agreement_Filepath>..\..\docs\License Agreement.txt</License_Agreement_Filepath>
+    <License_Agreement_Filepath>user docs\License Agreement.txt</License_Agreement_Filepath>
     <Licensing_and_Activation>
       <License_LF_file_path/>
       <Licensed_library_file_path/>
@@ -171,7 +205,7 @@ Package build with VIPM 2010</Release_Notes>
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>To Proper Case.vi</Path>
+        <Path>library\To Proper Case.vi</Path>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -184,7 +218,7 @@ Package build with VIPM 2010</Release_Notes>
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>Trim Whitespace.vi</Path>
+        <Path>library\Trim Whitespace.vi</Path>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -197,7 +231,7 @@ Package build with VIPM 2010</Release_Notes>
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>Convert EOLs.vi</Path>
+        <Path>library\Convert EOLs.vi</Path>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -210,7 +244,7 @@ Package build with VIPM 2010</Release_Notes>
           <Column>6</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>Comment.vi</Path>
+        <Path>library\Comment.vi</Path>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -223,7 +257,7 @@ Package build with VIPM 2010</Release_Notes>
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>Slice String.vi</Path>
+        <Path>library\Slice String.vi</Path>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -236,7 +270,7 @@ Package build with VIPM 2010</Release_Notes>
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>To Camel Case.vi</Path>
+        <Path>library\To Camel Case.vi</Path>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -249,7 +283,7 @@ Package build with VIPM 2010</Release_Notes>
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>String to 1D Array.vi</Path>
+        <Path>library\String to 1D Array.vi</Path>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -262,7 +296,7 @@ Package build with VIPM 2010</Release_Notes>
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>1D Array to String.vi</Path>
+        <Path>library\1D Array to String.vi</Path>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -275,7 +309,7 @@ Package build with VIPM 2010</Release_Notes>
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>Multi-line String to Array.vi</Path>
+        <Path>library\Multi-line String to Array.vi</Path>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -288,7 +322,7 @@ Package build with VIPM 2010</Release_Notes>
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>Search or Split String.vi</Path>
+        <Path>library\Search or Split String.vi</Path>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -301,7 +335,7 @@ Package build with VIPM 2010</Release_Notes>
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>Format Variant Into String.vi</Path>
+        <Path>library\Format Variant Into String.vi</Path>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -314,7 +348,7 @@ Package build with VIPM 2010</Release_Notes>
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>Scan Variant from String.vi</Path>
+        <Path>library\Scan Variant from String.vi</Path>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -327,7 +361,7 @@ Package build with VIPM 2010</Release_Notes>
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>Variant Array to Spreadsheet.vi</Path>
+        <Path>library\Variant Array to Spreadsheet.vi</Path>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -340,7 +374,7 @@ Package build with VIPM 2010</Release_Notes>
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>Number to Proper Engl Text.vi</Path>
+        <Path>library\Number to Proper Engl Text.vi</Path>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -353,7 +387,7 @@ Package build with VIPM 2010</Release_Notes>
           <Column>6</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>Place Number to Proper Engl Text.vi</Path>
+        <Path>library\Place Number to Proper Engl Text.vi</Path>
       </Items_Data>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
