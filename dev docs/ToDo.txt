@@ -1,3 +1,0 @@
-* Move "Is a GUID.vi" and "Is an MD5.vi" into the Comparison library.
-* Add documentation build (see dictionary package)
-* Add examples
