@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.3" Created_Date="2010-12-07 17:22:49" Modified_Date="2011-05-18 00:59:47" Creator="Jonathon Green" Comments="" ID="0fd9e9049361b63fea82692c784c013f">
+<VI_Package_Builder_Settings Version="0.3" Created_Date="2010-12-07 17:22:49" Modified_Date="2011-08-04 17:40:35" Creator="Jonathon Green" Comments="" ID="ca81c895808b92093cef9d682e9e5dbc">
   <Library_General_Settings>
     <Package_File_Name>oglib_string</Package_File_Name>
-    <Library_Version>4.0.0.7</Library_Version>
+    <Library_Version>4.0.1.7</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -35,8 +35,7 @@
       <Copyright>2002-2007 Jim Kring; 2002 Cal-Bay Systems; 2004 Paul Sullivan; 2004 Michael C. Ashe; 2005-2006 MKS Instruments, Inc. (author: Doug Femec); 2010-2011 Jonathon Green</Copyright>
       <Packager>OpenG.org</Packager>
       <URL>http://wiki.openg.org/Oglib_string</URL>
-      <Release_Notes>Package sources upgraded to LabVIEW 2009 (package now compatible with LV2009 or greater)
-Package build with VIPM 2010</Release_Notes>
+      <Release_Notes/>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -235,7 +234,7 @@ Package build with VIPM 2010</Release_Notes>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Comment.vi</NameSub_Menu_Name>
         <Short_Name>Comment</Short_Name>
-        <is_Merge_VI>false</is_Merge_VI>
+        <is_Merge_VI>true</is_Merge_VI>
         <Position>
           <Row>1</Row>
           <Column>6</Column>
