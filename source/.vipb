@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.3" Created_Date="2010-12-07 17:22:49" Modified_Date="2011-08-05 01:51:00" Creator="Jonathon Green" Comments="" ID="a236ce2437d99bdb1fb3835cd46b7b73">
+<VI_Package_Builder_Settings Version="0.3" Created_Date="2010-12-07 17:22:49" Modified_Date="2011-08-06 00:57:00" Creator="Jonathon Green" Comments="" ID="291bcf46519e2cc74fb822779f7578f5">
   <Library_General_Settings>
     <Package_File_Name>oglib_string</Package_File_Name>
-    <Library_Version>4.0.1.7</Library_Version>
+    <Library_Version>4.1.0.9</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -16,9 +16,8 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <External_Dependencies>oglib_lvdata &gt;= 2.9</External_Dependencies>
       <Additional_External_Dependencies>oglib_error &gt;=2.3</Additional_External_Dependencies>
-      <Direct_Dependencies>oglib_lvdata-2.9-1</Direct_Dependencies>
+      <Additional_External_Dependencies>oglib_lvdata &gt;=4.1.0.9</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI>..\build support\Pre-Build VI - Run Unit Tests.vi</Pre-Build_VI>
@@ -35,7 +34,14 @@
       <Copyright>2002-2007 Jim Kring; 2002 Cal-Bay Systems; 2004 Paul Sullivan; 2004 Michael C. Ashe; 2005-2006 MKS Instruments, Inc. (author: Doug Femec); 2010-2011 Jonathon Green; 2011 Shaun Rumbell</Copyright>
       <Packager>OpenG.org</Packager>
       <URL>http://wiki.openg.org/Oglib_string</URL>
-      <Release_Notes/>
+      <Release_Notes>[FIX] 3303663 - "Format Variant Into String" doesn't handle Timestamp
+[FIX] 3292424 - Update "Trim Whitespace" with "Fast Trim"
+[FIX] 3275381 - "Slice String" has Input or RHS of Connector Pane
+[FIX] 1958939 - "Scan Variant from String" missing description
+[FIX] 3275249 - Update "OpenG Comment"
+[FIX] 3386135 - OpenG Comment should be a Merge VI in palette
+[FIX] 1914597 - "Format Variant Into String" missing DAQ, DAQmx, and VISA type
+[FIX] 921506 - "Format Variant Into String" should accept RefNums</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -206,19 +212,6 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Trim Whitespace.vi</NameSub_Menu_Name>
-        <Short_Name>Trim Whitespace</Short_Name>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>library\Trim Whitespace.vi</Path>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Convert EOLs.vi</NameSub_Menu_Name>
         <Short_Name>Convert EOLs</Short_Name>
         <is_Merge_VI>false</is_Merge_VI>
@@ -241,19 +234,6 @@
         </Position>
         <Icon>00000000</Icon>
         <Path>library\Comment.vi</Path>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Slice String.vi</NameSub_Menu_Name>
-        <Short_Name>Slice String</Short_Name>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>library\Slice String.vi</Path>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -384,6 +364,32 @@
         </Position>
         <Icon>00000000</Icon>
         <Path>library\Place Number to Proper Engl Text.vi</Path>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Slice String 1.vi</NameSub_Menu_Name>
+        <Short_Name>Slice String 1</Short_Name>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>library\Slice String 1.vi</Path>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Trim Whitespace 1.vi</NameSub_Menu_Name>
+        <Short_Name>Trim Whitespace 1</Short_Name>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>library\Trim Whitespace 1.vi</Path>
       </Items_Data>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
