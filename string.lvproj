@@ -11,16 +11,32 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="build support" Type="Folder">
-			<Item Name="List VIs without Test Coverage.vi" Type="VI" URL="../build support/List VIs without Test Coverage.vi"/>
-			<Item Name="Pre-Build VI - Run Unit Tests.vi" Type="VI" URL="../build support/Pre-Build VI - Run Unit Tests.vi"/>
+			<Item Name="List VIs without Test Coverage.vi" Type="VI" URL="../build support/List VIs without Test Coverage.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="Pre-Build VI - Run Unit Tests.vi" Type="VI" URL="../build support/Pre-Build VI - Run Unit Tests.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
 		</Item>
 		<Item Name="candidates" Type="Folder">
-			<Item Name="CSV String to Array.vi" Type="VI" URL="../candidates/CSV String to Array.vi"/>
-			<Item Name="Is a GUID.vi" Type="VI" URL="../candidates/Is a GUID.vi"/>
-			<Item Name="Is an MD5.vi" Type="VI" URL="../candidates/Is an MD5.vi"/>
-			<Item Name="TEST - CSV String to Array.vi" Type="VI" URL="../candidates/TEST - CSV String to Array.vi"/>
-			<Item Name="TEST - Is a GUID.vi" Type="VI" URL="../candidates/TEST - Is a GUID.vi"/>
-			<Item Name="TEST - Is an MD5.vi" Type="VI" URL="../candidates/TEST - Is an MD5.vi"/>
+			<Item Name="CSV String to Array.vi" Type="VI" URL="../candidates/CSV String to Array.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="Is a GUID.vi" Type="VI" URL="../candidates/Is a GUID.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="Is an MD5.vi" Type="VI" URL="../candidates/Is an MD5.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - CSV String to Array.vi" Type="VI" URL="../candidates/TEST - CSV String to Array.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Is a GUID.vi" Type="VI" URL="../candidates/TEST - Is a GUID.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Is an MD5.vi" Type="VI" URL="../candidates/TEST - Is an MD5.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
 		</Item>
 		<Item Name="dev docs" Type="Folder">
 			<Item Name="ToDo.txt" Type="Document" URL="../dev docs/ToDo.txt"/>
@@ -32,37 +48,93 @@
 			</Item>
 			<Item Name="library" Type="Folder">
 				<Item Name="Convert EOLs" Type="Folder">
-					<Item Name="Convert EOLs (String Array).vi" Type="VI" URL="../source/library/Convert EOLs/Convert EOLs (String Array).vi"/>
-					<Item Name="Convert EOLs (String).vi" Type="VI" URL="../source/library/Convert EOLs/Convert EOLs (String).vi"/>
+					<Item Name="Convert EOLs (String Array).vi" Type="VI" URL="../source/library/Convert EOLs/Convert EOLs (String Array).vi">
+						<Property Name="marked" Type="Int">0</Property>
+					</Item>
+					<Item Name="Convert EOLs (String).vi" Type="VI" URL="../source/library/Convert EOLs/Convert EOLs (String).vi">
+						<Property Name="marked" Type="Int">0</Property>
+					</Item>
 				</Item>
 				<Item Name="To Camel Case" Type="Folder">
-					<Item Name="To Camel Case (String Array).vi" Type="VI" URL="../source/library/To Camel Case/To Camel Case (String Array).vi"/>
-					<Item Name="To Camel Case (String).vi" Type="VI" URL="../source/library/To Camel Case/To Camel Case (String).vi"/>
+					<Item Name="To Camel Case (String Array).vi" Type="VI" URL="../source/library/To Camel Case/To Camel Case (String Array).vi">
+						<Property Name="marked" Type="Int">0</Property>
+					</Item>
+					<Item Name="To Camel Case (String).vi" Type="VI" URL="../source/library/To Camel Case/To Camel Case (String).vi">
+						<Property Name="marked" Type="Int">0</Property>
+					</Item>
 				</Item>
 				<Item Name="To Proper Case" Type="Folder">
-					<Item Name="To Proper Case (String Array).vi" Type="VI" URL="../source/library/To Proper Case/To Proper Case (String Array).vi"/>
-					<Item Name="To Proper Case (String).vi" Type="VI" URL="../source/library/To Proper Case/To Proper Case (String).vi"/>
+					<Item Name="To Proper Case (String Array).vi" Type="VI" URL="../source/library/To Proper Case/To Proper Case (String Array).vi">
+						<Property Name="marked" Type="Int">0</Property>
+					</Item>
+					<Item Name="To Proper Case (String).vi" Type="VI" URL="../source/library/To Proper Case/To Proper Case (String).vi">
+						<Property Name="marked" Type="Int">0</Property>
+					</Item>
 				</Item>
 				<Item Name="Trim Whitespace" Type="Folder">
-					<Item Name="Trim Whitespace (String Array).vi" Type="VI" URL="../source/library/Trim Whitespace/Trim Whitespace (String Array).vi"/>
-					<Item Name="Trim Whitespace (String).vi" Type="VI" URL="../source/library/Trim Whitespace/Trim Whitespace (String).vi"/>
+					<Item Name="Trim Whitespace (String Array).vi" Type="VI" URL="../source/library/Trim Whitespace/Trim Whitespace (String Array).vi">
+						<Property Name="marked" Type="Int">0</Property>
+					</Item>
+					<Item Name="Trim Whitespace (String).vi" Type="VI" URL="../source/library/Trim Whitespace/Trim Whitespace (String).vi">
+						<Property Name="marked" Type="Int">0</Property>
+					</Item>
 				</Item>
-				<Item Name="1D Array to String.vi" Type="VI" URL="../source/library/1D Array to String.vi"/>
-				<Item Name="Comment.vi" Type="VI" URL="../source/library/Comment.vi"/>
-				<Item Name="Convert EOLs.vi" Type="VI" URL="../source/library/Convert EOLs.vi"/>
-				<Item Name="Format Variant Into String.vi" Type="VI" URL="../source/library/Format Variant Into String.vi"/>
-				<Item Name="Multi-line String to Array.vi" Type="VI" URL="../source/library/Multi-line String to Array.vi"/>
-				<Item Name="Number to Proper Engl Text.vi" Type="VI" URL="../source/library/Number to Proper Engl Text.vi"/>
-				<Item Name="Place Number to Proper Engl Text.vi" Type="VI" URL="../source/library/Place Number to Proper Engl Text.vi"/>
-				<Item Name="Scan Variant from String.vi" Type="VI" URL="../source/library/Scan Variant from String.vi"/>
-				<Item Name="Search or Split String.vi" Type="VI" URL="../source/library/Search or Split String.vi"/>
-				<Item Name="Slice String.vi" Type="VI" URL="../source/library/Slice String.vi"/>
-				<Item Name="String to 1D Array.vi" Type="VI" URL="../source/library/String to 1D Array.vi"/>
-				<Item Name="To Camel Case.vi" Type="VI" URL="../source/library/To Camel Case.vi"/>
-				<Item Name="To Proper Case.vi" Type="VI" URL="../source/library/To Proper Case.vi"/>
-				<Item Name="Trim Whitespace.vi" Type="VI" URL="../source/library/Trim Whitespace.vi"/>
-				<Item Name="Variant Array to Spreadsheet.vi" Type="VI" URL="../source/library/Variant Array to Spreadsheet.vi"/>
-				<Item Name="VI Tree - string.vi" Type="VI" URL="../source/library/VI Tree - string.vi"/>
+				<Item Name="1D Array to String.vi" Type="VI" URL="../source/library/1D Array to String.vi">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
+				<Item Name="Comment.vi" Type="VI" URL="../source/library/Comment.vi">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
+				<Item Name="Convert EOLs.vi" Type="VI" URL="../source/library/Convert EOLs.vi">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
+				<Item Name="Format Variant Into String.vi" Type="VI" URL="../source/library/Format Variant Into String.vi">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
+				<Item Name="Multi-line String to Array.vi" Type="VI" URL="../source/library/Multi-line String to Array.vi">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
+				<Item Name="Number to Proper Engl Text.vi" Type="VI" URL="../source/library/Number to Proper Engl Text.vi">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
+				<Item Name="Place Number to Proper Engl Text.vi" Type="VI" URL="../source/library/Place Number to Proper Engl Text.vi">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
+				<Item Name="Scan Variant from String.vi" Type="VI" URL="../source/library/Scan Variant from String.vi">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
+				<Item Name="Search or Split String.vi" Type="VI" URL="../source/library/Search or Split String.vi">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
+				<Item Name="Slice String.vi" Type="VI" URL="../source/library/Slice String.vi">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
+				<Item Name="Slice String 1.vi" Type="VI" URL="../source/library/Slice String 1.vi">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
+				<Item Name="String to 1D Array.vi" Type="VI" URL="../source/library/String to 1D Array.vi">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
+				<Item Name="To Camel Case.vi" Type="VI" URL="../source/library/To Camel Case.vi">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
+				<Item Name="To Proper Case.vi" Type="VI" URL="../source/library/To Proper Case.vi">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
+				<Item Name="Trim Whitespace.vi" Type="VI" URL="../source/library/Trim Whitespace.vi">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
+				<Item Name="Variant Array to Spreadsheet.vi" Type="VI" URL="../source/library/Variant Array to Spreadsheet.vi">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
+				<Item Name="VI Tree - string.vi" Type="VI" URL="../source/library/VI Tree - string.vi">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
+			</Item>
+			<Item Name="support" Type="Folder">
+				<Item Name="Trim Whitespace Lookup Table.vi" Type="VI" URL="../source/support/Trim Whitespace Lookup Table.vi">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
 			</Item>
 			<Item Name="user docs" Type="Folder">
 				<Item Name="License Agreement.txt" Type="Document" URL="../source/user docs/License Agreement.txt"/>
@@ -71,24 +143,58 @@
 			<Item Name=".vipc" Type="Document" URL="../source/.vipc"/>
 		</Item>
 		<Item Name="tests" Type="Folder">
-			<Item Name="TEST - 1D Array to String.vi" Type="VI" URL="../tests/TEST - 1D Array to String.vi"/>
-			<Item Name="TEST - Convert EOLs.vi" Type="VI" URL="../tests/TEST - Convert EOLs.vi"/>
-			<Item Name="TEST - Format Variant Into String.vi" Type="VI" URL="../tests/TEST - Format Variant Into String.vi"/>
-			<Item Name="TEST - Multi-line String to Array.vi" Type="VI" URL="../tests/TEST - Multi-line String to Array.vi"/>
-			<Item Name="TEST - Number to Proper Engl Text.vi" Type="VI" URL="../tests/TEST - Number to Proper Engl Text.vi"/>
-			<Item Name="TEST - Place Number to Proper Engl Text.vi" Type="VI" URL="../tests/TEST - Place Number to Proper Engl Text.vi"/>
-			<Item Name="TEST - Scan Variant from String.vi" Type="VI" URL="../tests/TEST - Scan Variant from String.vi"/>
-			<Item Name="TEST - Search or Split String.vi" Type="VI" URL="../tests/TEST - Search or Split String.vi"/>
-			<Item Name="TEST - Slice String.vi" Type="VI" URL="../tests/TEST - Slice String.vi"/>
-			<Item Name="TEST - String to 1D Array.vi" Type="VI" URL="../tests/TEST - String to 1D Array.vi"/>
-			<Item Name="TEST - TEMPLATE_SCALAR.vit" Type="VI" URL="../tests/TEST - TEMPLATE_SCALAR.vit"/>
-			<Item Name="TEST - TEMPLATE_VECTOR.vit" Type="VI" URL="../tests/TEST - TEMPLATE_VECTOR.vit"/>
-			<Item Name="TEST - To Camel Case.vi" Type="VI" URL="../tests/TEST - To Camel Case.vi"/>
-			<Item Name="TEST - To Proper Case.vi" Type="VI" URL="../tests/TEST - To Proper Case.vi"/>
-			<Item Name="TEST - Trim Whitespace.vi" Type="VI" URL="../tests/TEST - Trim Whitespace.vi"/>
-			<Item Name="TEST - Variant Array to Spreadsheet.vi" Type="VI" URL="../tests/TEST - Variant Array to Spreadsheet.vi"/>
+			<Item Name="TEST - 1D Array to String.vi" Type="VI" URL="../tests/TEST - 1D Array to String.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Convert EOLs.vi" Type="VI" URL="../tests/TEST - Convert EOLs.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Format Variant Into String.vi" Type="VI" URL="../tests/TEST - Format Variant Into String.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Multi-line String to Array.vi" Type="VI" URL="../tests/TEST - Multi-line String to Array.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Number to Proper Engl Text.vi" Type="VI" URL="../tests/TEST - Number to Proper Engl Text.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Place Number to Proper Engl Text.vi" Type="VI" URL="../tests/TEST - Place Number to Proper Engl Text.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Scan Variant from String.vi" Type="VI" URL="../tests/TEST - Scan Variant from String.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Search or Split String.vi" Type="VI" URL="../tests/TEST - Search or Split String.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Slice String.vi" Type="VI" URL="../tests/TEST - Slice String.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - String to 1D Array.vi" Type="VI" URL="../tests/TEST - String to 1D Array.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - TEMPLATE_SCALAR.vit" Type="VI" URL="../tests/TEST - TEMPLATE_SCALAR.vit">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - TEMPLATE_VECTOR.vit" Type="VI" URL="../tests/TEST - TEMPLATE_VECTOR.vit">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - To Camel Case.vi" Type="VI" URL="../tests/TEST - To Camel Case.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - To Proper Case.vi" Type="VI" URL="../tests/TEST - To Proper Case.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Trim Whitespace.vi" Type="VI" URL="../tests/TEST - Trim Whitespace.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TEST - Variant Array to Spreadsheet.vi" Type="VI" URL="../tests/TEST - Variant Array to Spreadsheet.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
 		</Item>
-		<Item Name="test.vi" Type="VI" URL="../test.vi"/>
+		<Item Name="test.vi" Type="VI" URL="../test.vi">
+			<Property Name="marked" Type="Int">0</Property>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -132,7 +238,9 @@
 				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
 				<Item Name="Type Descriptor__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor__ogtk.ctl"/>
 				<Item Name="Get Header from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Header from TD__ogtk.vi"/>
-				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
+				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
 				<Item Name="Empty 1D Array (I64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 1D Array (I64)__ogtk.vi"/>
 				<Item Name="Empty 1D Array (U64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 1D Array (U64)__ogtk.vi"/>
 				<Item Name="Empty 2D Array (I64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 2D Array (I64)__ogtk.vi"/>
@@ -389,12 +497,19 @@
 				<Item Name="Get Data Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Data Name__ogtk.vi"/>
 				<Item Name="Get Data Name from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Data Name from TD__ogtk.vi"/>
 				<Item Name="Set Enum String Value__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Set Enum String Value__ogtk.vi"/>
+				<Item Name="Get Refnum Type Enum from Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Refnum Type Enum from Data__ogtk.vi"/>
+				<Item Name="Refnum Subtype Enum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Refnum Subtype Enum__ogtk.ctl"/>
+				<Item Name="Get Refnum Type Enum from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Refnum Type Enum from TD__ogtk.vi"/>
+				<Item Name="Get Waveform Type Enum from Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Waveform Type Enum from Data__ogtk.vi"/>
+				<Item Name="Waveform Subtype Enum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Waveform Subtype Enum__ogtk.ctl"/>
+				<Item Name="Get Waveform Type Enum from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Waveform Type Enum from TD__ogtk.vi"/>
+				<Item Name="Get Variant Attributes__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Variant Attributes__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="Merge Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Merge Errors.vi"/>
+				<Item Name="Merge Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Merge Errors.vi">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
 			</Item>
-			<Item Name="Is a GUID.vi" Type="VI" URL="../source/library/Is a GUID.vi"/>
-			<Item Name="Is an MD5.vi" Type="VI" URL="../source/library/Is an MD5.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
