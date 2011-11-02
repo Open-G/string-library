@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.3" Created_Date="2010-12-07 17:22:49" Modified_Date="2011-08-06 00:57:00" Creator="Jonathon Green" Comments="" ID="291bcf46519e2cc74fb822779f7578f5">
+<VI_Package_Builder_Settings Version="0.3" Created_Date="2010-12-07 17:22:49" Modified_Date="2011-10-07 02:27:00" Creator="Jonathon Green" Comments="" ID="9f6b30d237d91d8420dbfa7a2ea1204c">
   <Library_General_Settings>
     <Package_File_Name>oglib_string</Package_File_Name>
     <Library_Version>4.1.0.9</Library_Version>
@@ -31,7 +31,7 @@
     <Description>
       <One_Line_Description_Summary>OpenG String Library</One_Line_Description_Summary>
       <Description>The OpenG String Library package contains several routines for operating on strings.</Description>
-      <Copyright>2002-2007 Jim Kring; 2002 Cal-Bay Systems; 2004 Paul Sullivan; 2004 Michael C. Ashe; 2005-2006 MKS Instruments, Inc. (author: Doug Femec); 2010-2011 Jonathon Green; 2011 Shaun Rumbell</Copyright>
+      <Copyright>2002-2007 Jim Kring; 2002 Cal-Bay Systems; 2004 Paul Sullivan; 2004 Michael C. Ashe; 2005-2006 MKS Instruments, Inc. (author: Doug Femec); 2010-2011 Jonathon Green; 2011 Shaun Rumbell, 2011 Darin.k; 2011 Wouter Geelen; 2011 Fabiola De la Cueva</Copyright>
       <Packager>OpenG.org</Packager>
       <URL>http://wiki.openg.org/Oglib_string</URL>
       <Release_Notes>[FIX] 3303663 - "Format Variant Into String" doesn't handle Timestamp
@@ -41,7 +41,8 @@
 [FIX] 3275249 - Update "OpenG Comment"
 [FIX] 3386135 - OpenG Comment should be a Merge VI in palette
 [FIX] 1914597 - "Format Variant Into String" missing DAQ, DAQmx, and VISA type
-[FIX] 921506 - "Format Variant Into String" should accept RefNums</Release_Notes>
+[FIX] 921506 - "Format Variant Into String" should accept RefNums
+[FIX] 3419755 - Create new String To Character Array VI</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -381,15 +382,28 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Trim Whitespace 1.vi</NameSub_Menu_Name>
-        <Short_Name>Trim Whitespace 1</Short_Name>
+        <NameSub_Menu_Name>Trim Whitespace.vi</NameSub_Menu_Name>
+        <Short_Name>Trim Whitespace</Short_Name>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>1</Row>
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>library\Trim Whitespace 1.vi</Path>
+        <Path>library\Trim Whitespace.vi</Path>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>String to Character Array.vi</NameSub_Menu_Name>
+        <Short_Name>String to Character Array</Short_Name>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>4</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>library\String to Character Array.vi</Path>
       </Items_Data>
     </Functions_Palette_Data>
   </Library_Palette_Definition>

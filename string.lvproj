@@ -115,6 +115,7 @@
 				<Item Name="String to 1D Array.vi" Type="VI" URL="../source/library/String to 1D Array.vi">
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
+				<Item Name="String to Character Array.vi" Type="VI" URL="../source/library/String to Character Array.vi"/>
 				<Item Name="To Camel Case.vi" Type="VI" URL="../source/library/To Camel Case.vi">
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
@@ -173,6 +174,7 @@
 			<Item Name="TEST - String to 1D Array.vi" Type="VI" URL="../tests/TEST - String to 1D Array.vi">
 				<Property Name="marked" Type="Int">0</Property>
 			</Item>
+			<Item Name="TEST - String to Character Array.vi" Type="VI" URL="../tests/TEST - String to Character Array.vi"/>
 			<Item Name="TEST - TEMPLATE_SCALAR.vit" Type="VI" URL="../tests/TEST - TEMPLATE_SCALAR.vit">
 				<Property Name="marked" Type="Int">0</Property>
 			</Item>
