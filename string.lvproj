@@ -22,19 +22,7 @@
 			<Item Name="CSV String to Array.vi" Type="VI" URL="../candidates/CSV String to Array.vi">
 				<Property Name="marked" Type="Int">0</Property>
 			</Item>
-			<Item Name="Is a GUID.vi" Type="VI" URL="../candidates/Is a GUID.vi">
-				<Property Name="marked" Type="Int">0</Property>
-			</Item>
-			<Item Name="Is an MD5.vi" Type="VI" URL="../candidates/Is an MD5.vi">
-				<Property Name="marked" Type="Int">0</Property>
-			</Item>
 			<Item Name="TEST - CSV String to Array.vi" Type="VI" URL="../candidates/TEST - CSV String to Array.vi">
-				<Property Name="marked" Type="Int">0</Property>
-			</Item>
-			<Item Name="TEST - Is a GUID.vi" Type="VI" URL="../candidates/TEST - Is a GUID.vi">
-				<Property Name="marked" Type="Int">0</Property>
-			</Item>
-			<Item Name="TEST - Is an MD5.vi" Type="VI" URL="../candidates/TEST - Is an MD5.vi">
 				<Property Name="marked" Type="Int">0</Property>
 			</Item>
 		</Item>
@@ -45,6 +33,7 @@
 			<Item Name="examples" Type="Folder"/>
 			<Item Name="images" Type="Folder">
 				<Item Name="icon.png" Type="Document" URL="../source/images/icon.png"/>
+				<Item Name="palette.png" Type="Document" URL="../source/images/palette.png"/>
 			</Item>
 			<Item Name="library" Type="Folder">
 				<Item Name="Convert EOLs" Type="Folder">
@@ -100,16 +89,17 @@
 				<Item Name="Place Number to Proper Engl Text.vi" Type="VI" URL="../source/library/Place Number to Proper Engl Text.vi">
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
+				<Item Name="Resolve Timestamp Format.vi" Type="VI" URL="../source/library/Resolve Timestamp Format.vi"/>
 				<Item Name="Scan Variant from String.vi" Type="VI" URL="../source/library/Scan Variant from String.vi">
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
 				<Item Name="Search or Split String.vi" Type="VI" URL="../source/library/Search or Split String.vi">
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
-				<Item Name="Slice String.vi" Type="VI" URL="../source/library/Slice String.vi">
+				<Item Name="Slice String 1.vi" Type="VI" URL="../source/library/Slice String 1.vi">
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
-				<Item Name="Slice String 1.vi" Type="VI" URL="../source/library/Slice String 1.vi">
+				<Item Name="Slice String.vi" Type="VI" URL="../source/library/Slice String.vi">
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
 				<Item Name="String to 1D Array.vi" Type="VI" URL="../source/library/String to 1D Array.vi">
@@ -144,6 +134,11 @@
 			<Item Name=".vipc" Type="Document" URL="../source/.vipc"/>
 		</Item>
 		<Item Name="tests" Type="Folder">
+			<Item Name="support" Type="Folder">
+				<Item Name="Format Variant Into String.txt" Type="Document" URL="../tests/support/Format Variant Into String.txt"/>
+				<Item Name="Setup - Forrmat Variant Into String.vi" Type="VI" URL="../tests/support/Setup - Forrmat Variant Into String.vi"/>
+				<Item Name="Teardown - Forrmat Variant Into String.vi" Type="VI" URL="../tests/support/Teardown - Forrmat Variant Into String.vi"/>
+			</Item>
 			<Item Name="TEST - 1D Array to String.vi" Type="VI" URL="../tests/TEST - 1D Array to String.vi">
 				<Property Name="marked" Type="Int">0</Property>
 			</Item>
@@ -162,12 +157,14 @@
 			<Item Name="TEST - Place Number to Proper Engl Text.vi" Type="VI" URL="../tests/TEST - Place Number to Proper Engl Text.vi">
 				<Property Name="marked" Type="Int">0</Property>
 			</Item>
+			<Item Name="TEST - Resolve Timestamp Format.vi" Type="VI" URL="../tests/TEST - Resolve Timestamp Format.vi"/>
 			<Item Name="TEST - Scan Variant from String.vi" Type="VI" URL="../tests/TEST - Scan Variant from String.vi">
 				<Property Name="marked" Type="Int">0</Property>
 			</Item>
 			<Item Name="TEST - Search or Split String.vi" Type="VI" URL="../tests/TEST - Search or Split String.vi">
 				<Property Name="marked" Type="Int">0</Property>
 			</Item>
+			<Item Name="TEST - Slice String 1.vi" Type="VI" URL="../tests/TEST - Slice String 1.vi"/>
 			<Item Name="TEST - Slice String.vi" Type="VI" URL="../tests/TEST - Slice String.vi">
 				<Property Name="marked" Type="Int">0</Property>
 			</Item>
@@ -506,6 +503,7 @@
 				<Item Name="Waveform Subtype Enum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Waveform Subtype Enum__ogtk.ctl"/>
 				<Item Name="Get Waveform Type Enum from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Waveform Type Enum from TD__ogtk.vi"/>
 				<Item Name="Get Variant Attributes__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Variant Attributes__ogtk.vi"/>
+				<Item Name="Current VI&apos;s Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Current VI&apos;s Path__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Merge Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Merge Errors.vi">
